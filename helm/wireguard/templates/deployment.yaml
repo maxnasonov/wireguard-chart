@@ -19,7 +19,7 @@ capabilities:
 {{ include "core.securitycontext" . }}
 runAsNonRoot: true
 runAsUser: 1000
-readOnlyRootFilesystem: true
+#readOnlyRootFilesystem: true
 allowPrivilegeEscalation: true
 privileged: false
 {{- end -}}
